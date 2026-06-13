@@ -1,0 +1,12 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Training artifacts
+outputs/
+outputs_*/
+*.log
+
+# HF cache (if ever placed locally)
+.cache/
