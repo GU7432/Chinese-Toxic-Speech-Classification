@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "gradio>=6.18.0",
     "huggingface-hub>=1.19.0",
     "numpy",
     "scikit-learn>=1.7.2",
