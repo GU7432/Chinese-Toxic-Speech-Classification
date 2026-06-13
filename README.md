@@ -92,6 +92,33 @@ uv run python app.py
   信心度長條，以及可即時調整的**判定閾值**滑桿（示範精確率／召回率取捨）；附一鍵範例。
 - **批次偵測**：貼上多行文字 → 一次輸出逐句結果表格與整體統計（有毒比例等）。
 
+### 介面預覽
+
+以下為「單句偵測」分頁的實際輸出（紅卡＝有毒、綠卡＝非毒，右側為信心度長條）：
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="ExIMAGE/ex1.png" alt="有毒範例 1" width="100%"><br>
+      <sub>有毒範例：種族歧視言論，p(有毒) = 0.868</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="ExIMAGE/ex2.png" alt="有毒範例 2" width="100%"><br>
+      <sub>有毒範例：仇恨言論，p(有毒) = 0.986</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="ExIMAGE/ex3.png" alt="非毒範例 1" width="100%"><br>
+      <sub>非毒範例：p(有毒) = 0.021</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="ExIMAGE/ex4.png" alt="非毒範例 2" width="100%"><br>
+      <sub>非毒範例：隱晦／中性表達，p(有毒) = 0.092</sub>
+    </td>
+  </tr>
+</table>
+
 常用旗標：
 
 | 旗標 | 用途 |
